@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(FB\ Dark\ Brown.png);
+    max-height: 100vh;
+    background-size: 100%;
+}
+
+.bloco-geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bloco-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 60%;
+    position: absolute;
+    bottom: 60px;
+}
+
+
+
+.texto {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.botao {
+    background-color: #6e6e6e;
+    border: none;
+    color: white;
+    flex-direction: row;
+    padding: 15px 32px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    display: list-item;
+    font-size: 16px;
+    margin: 750px 800px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    width: 20%;
+}
+
+.botao-2{
+    background-color: #6e6e6e;
+    border: none;
+    color: white;
+    flex-direction: row;
+    padding: 15px 32px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    display: list-item;
+    font-size: 16px;
+    margin: 5px 800px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    width: 20%;
+}
+
+.botao:hover {
+    background-color: #585858;
+}
+
+.botao-2:hover {
+    background-color: #585858;
+}
+
+.link{
+    text-decoration: none;
+}

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("./fase\ 4.png");
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.bloco-geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bloco-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 60%;
+    position: absolute;
+    bottom: 60px;
+}
+
+
+
+.texto {
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.botao {
+    background-color: #6e6e6e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    width: 60%;
+}
+
+.botao:hover {
+    background-color: #585858;
+}
